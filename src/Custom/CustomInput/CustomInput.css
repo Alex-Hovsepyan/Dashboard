@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+input {
+    font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    border-radius: 0.9375rem;
+    border: 0.5px solid rgb(74, 85, 104);
+    padding: 0.5rem 0.75rem;
+    display: grid;
+    height: auto;
+    font-size: 0.875rem;
+    font-weight: 400 ;
+    line-height: 1.4;
+    outline: none;
+    transition: box-shadow 150ms ease 0s, border-color 150ms ease 0s, padding 150ms ease 0s;
+    color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+
+label {
+    margin: 0px;
+    font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+input:focus {
+    border-color: rgba(226, 232, 240, 0.6);
+    box-shadow: rgb(98 143 194) 0rem 0rem 0rem 0.125rem;
+    outline: 0px;
+}
+

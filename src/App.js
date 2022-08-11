@@ -1,11 +1,12 @@
 import React from "react";
-import InputCustom from "./InputCustom/InputCustom"
+import CustomInput from "./Custom/CustomInput/CustomInput"
 import CustomButton from "./Custom/CustomButton/CustomButton";
 
 function App() {
   return (
     <div>
-      <CustomButton value={"sign in"} />
+      <CustomInput label={"Name"} width={300} placeholder={"Your password..."} />
+      {/* <CustomButton value={"sign in"} /> */}
     </div>
   );
 }
