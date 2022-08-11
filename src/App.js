@@ -1,8 +1,11 @@
-
+import React from "react";
+import InputCustom from "./InputCustom/InputCustom"
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      {/* <InputCustom /> */}
+    </div>
   );
 }
 

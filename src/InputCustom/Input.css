@@ -1,0 +1,27 @@
+input {
+    display: flex;
+    border-radius: 0.9375rem;
+    cursor: text;
+    background-color: rgb(15, 21, 53); 
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(52, 71, 103);
+    height: 40px;
+    
+}
+
+form {
+    line-height: 46px;
+    height: 300px;
+    padding-left: 14px;
+}
+
+label {
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+div {
+    background: rgb(19, 21, 56);
+}
+
