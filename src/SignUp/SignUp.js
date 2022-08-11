@@ -1,4 +1,3 @@
-import "./SignUp.css";
 import bgColor from "../assets/images/signUpImage.webp"
 function SignUp() {
     return (
