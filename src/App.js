@@ -1,10 +1,11 @@
-import SignUp from "./SignUp/SignUp";
+import React from "react";
+import LeftPartBackground from "./LeftPartBackground/LeftPartBackground";
 
 
 function App() {
   return (
     <div>
-      <SignUp />
+        {/* <LeftPartBackground src = {'sinInImg'} /> */}
     </div>
   );
 }
