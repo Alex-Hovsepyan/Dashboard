@@ -1,10 +1,11 @@
 import React from "react";
 import InputCustom from "./InputCustom/InputCustom"
+import CustomButton from "./Custom/CustomButton/CustomButton";
 
 function App() {
   return (
     <div>
-      {/* <InputCustom /> */}
+      <CustomButton value={"sign in"} />
     </div>
   );
 }
