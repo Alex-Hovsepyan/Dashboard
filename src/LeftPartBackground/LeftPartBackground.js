@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import sinInImg from "../assets/images/singInImg.png";
 import sinUpImg from "../assets/images/signUpImg.png";
 import "./LeftPartBackground.css"

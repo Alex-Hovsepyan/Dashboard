@@ -10,7 +10,6 @@ function CustomInput({id, label, value, type, placeholder, width,setValue}){
           style={{ width: width }}
           onChange ={e => setValue(e.target.value)}
           />
-          
       </label>
     )
 }
