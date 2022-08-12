@@ -1,11 +1,9 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 .container{
-    width: 50%;
-    height: 100vh;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -43,4 +41,5 @@
         .container{
             display: none;
         }
+    
 }
