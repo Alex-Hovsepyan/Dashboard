@@ -1,13 +1,12 @@
-import React from "react";
+import React from "react"; 
 import sinInImg from "../assets/images/singInImg.png";
 import sinUpImg from "../assets/images/signUpImg.png";
 import "./LeftPartBackground.css"
 
-function LeftPartBackground({ src }) {
-    let change;
-    src === 'sinInImg'? change = sinInImg : change = sinUpImg
+function LeftPartBackground({ src, height }) {
+    let change = src === 'sinInImg' ? sinInImg : sinUpImg;
     return (
-        <div className="container">
+        <div className="container" style={{ height: height || '100vh'}}>
             <img src={change} alt={"Background"} />
             <div className="text">
                 <p>inspired by the future:</p>

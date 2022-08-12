@@ -1,9 +1,9 @@
 import './CustomButton.css'
 
-function CustomButton(props) {
+function CustomButton({ width, value }) {
     return (
         <div>
-            <button style={{width : props.width}}>{props.value}</button>
+            <button style={{width : width}}>{value}</button>
         </div>
     )
 }

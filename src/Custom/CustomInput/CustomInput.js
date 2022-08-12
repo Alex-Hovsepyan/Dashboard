@@ -1,5 +1,5 @@
 import "./CustomInput.css"
-function CustomInput({id, label, value, type, placeholder, width,setValue}){
+function CustomInput({id, label, value, type, placeholder, width, setValue}){
     return (
       <label htmlFor={id}>{label}
         <input 
@@ -8,9 +8,8 @@ function CustomInput({id, label, value, type, placeholder, width,setValue}){
           type={type}
           placeholder={placeholder}
           style={{ width: width }}
-          onChange ={e => setValue(e.target.value)}
+          onChange = {e => setValue(e.target.value)}
           />
-          
       </label>
     )
 }
