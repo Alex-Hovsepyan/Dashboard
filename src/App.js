@@ -7,11 +7,11 @@ import SignIn from "./SignIn/SignIn";
 
 function App(){
   const location = document.location.pathname;
-  console.log(location)
+  // console.log(location)
   return (
     <div>
       {/* <SignIn /> */}
-      {location === "/signIn" ? <SignIn /> : <SignUp />}
+      {/* {location === "/signIn" ? <SignIn /> : <SignUp />} */}
       {/* <SignIn/> */}
         {/* <LeftPartBackground src = {'sinInImg'} /> */}
         {/* <CustomInput label={"Name"} width={300} placeholder={"Your password..."} /> */}
