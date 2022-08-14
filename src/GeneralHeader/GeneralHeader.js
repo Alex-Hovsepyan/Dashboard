@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./GeneralHeader.module.scss";
 import LeftPart from "./LeftPart";
 import RightPart from "./RightPart";

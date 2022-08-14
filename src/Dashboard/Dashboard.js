@@ -7,6 +7,7 @@ function Dashboard () {
             
             <div className={styles.container}>
                 <GeneralHeader locationName={'Dashboard'} />
+                
             </div>
 
         </div>
