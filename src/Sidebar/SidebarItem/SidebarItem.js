@@ -1,10 +1,11 @@
 import s from "../Sidebar.module.scss";
-const SidebarItem = ({ icon, route }) => <div className={s.iconContainer}>
+import { Link } from "react-router-dom";
+const SidebarItem = ({ icon, route, path }) => <div className={s.iconContainer}>
     <div className={s.item}>
         <div className={s.icon}>
             <img src={icon.src} alt={icon.alt} />
         </div>
-       <span>{route}</span>
+       <Link className={s.path} to={path}>{route}</Link>
     </div>
 </div>
 

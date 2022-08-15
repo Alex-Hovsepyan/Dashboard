@@ -11,8 +11,7 @@ import ellipsis from "../assets/images/ellipsis.svg";
 
 function Dashboard () {
     return (
-        <div className={styles.dashboardContainer}>
-            
+        <div className={styles.dashboardContainer}>         
             <div className={styles.container}>
                 <GeneralHeader locationName={'Dashboard'} />
                 <main className={styles.wrapper}>

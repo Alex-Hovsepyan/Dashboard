@@ -1,5 +1,5 @@
 import TableForm from "./TableForm";
-import "../CustomTable/CustomTable.css"
+import s from  "./CustomTable.module.scss";
 function CustomTable() {
     const dataAuthors=[
         {   
@@ -85,13 +85,11 @@ function CustomTable() {
     ];
     
  
-return(
-   
-   <div className="container">
-        <div className="left"></div>
-        
-            <div className="right">
-                <div className="top">
+return(  
+   <div className={s.container}>
+        <div className={s.left}></div>
+            <div className={s.right}>
+                <div className={s.top}>
                     <TableForm value={'data'} data = {dataAuthors} tableName = {'Authors table'} width = {'100%'} height = {"75vh"}/>
                 </div>
             <div>

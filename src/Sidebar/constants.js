@@ -8,6 +8,7 @@ import signUp from "../assets/sidebarIcons/rocket.svg";
 export const generalItems = [
     {
         route: "Dashboard",
+        path: "/dashboard",
         icon: {
             src: home,
             alt: "Dashboard"
@@ -15,6 +16,7 @@ export const generalItems = [
     },
     {
         route: "Tables",
+        path: "/tables",
         icon: {
             src: tables,
             alt: "Tables"
@@ -22,6 +24,7 @@ export const generalItems = [
     },
     {
         route: "Billing",
+        path: "/billing",
         icon: {
             src: billing,
             alt: "Billing"
@@ -32,6 +35,7 @@ export const generalItems = [
 export const accountPages = [
     {
         route: "Profile",
+        path: "/profile",
         icon: {
             src: profile,
             alt: "Profile"
@@ -39,6 +43,7 @@ export const accountPages = [
     },
     {
         route: "Sign In",
+        path: "/signIn",
         icon: {
             src: signIn,
             alt: "Sign in"
@@ -46,6 +51,7 @@ export const accountPages = [
     },
     {
         route: "Sign Up",
+        path: "/signUp",
         icon: {
             src: signUp,
             alt: "Sign up"
