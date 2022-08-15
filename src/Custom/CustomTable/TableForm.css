@@ -1,0 +1,112 @@
+
+table {
+    border-radius: 20px;
+    font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+}
+th, td {
+    text-align: left;
+    border-bottom: 1px solid #2C3647;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 13px;
+    padding: 15px 25px 10px 25px;
+}
+.onBtn{
+    color: white;
+    padding: 6px 1px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #01B574;
+    width: 60px;
+    border: none;
+    text-align: center;
+  }
+.offbtn{
+    color: white;
+    padding: 6px 1px; 
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 60px;
+    text-align: center;
+}
+
+.image1{
+  border-radius: 15px;
+  width: 40px;
+  
+}
+.image2{
+  border-radius: 15px;
+  width: 28px;
+}
+
+.topText{
+  padding: 19px 23px;
+  color: rgb(160, 174, 192);
+  font-weight: bold;
+  font-size: 15px;
+  
+} 
+.completion{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+.oneHundred{
+  transform: translateY(90%);
+  height: 7px;
+  border-radius: 5px;
+  background: #0075FF;
+}
+.sixty{
+  transform: translateY(90%);
+  width: 60%;
+  height: 7px;
+  border-radius: 5px;
+  background: #0075FF;
+}
+
+.thirty{
+  transform: translateY(90%);
+  width: 30%;
+  height: 9px;
+  border-radius: 5px;
+  background: #0075FF;
+}
+.zero{
+  transform: translateY(90%);
+  width: 100%;
+  height: 9px;
+  border-radius: 5px;
+  background: #464e57;
+}
+.forText{
+ display: flex;
+ align-items: center;
+}
+.forText p{
+  margin: 0 12px;
+}
+.position{
+  color: rgb(160, 174, 192);
+}
+
+.menubtn{
+
+  margin: 0 25%;
+}
+.menubtn div{
+  width: 4px;
+  height: 4px;
+  background-color:  rgb(160, 174, 192);
+  margin: 2px 0;
+  border-radius: 50%;
+}
+
+
+td:nth-child(5){
+  color:  rgb(160, 174, 192);
+}

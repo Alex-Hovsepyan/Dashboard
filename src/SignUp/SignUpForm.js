@@ -14,15 +14,12 @@ function SignUpForm () {
     const [ usersData, setUsersData ] = useState(null);
 
     useEffect(() => {
-        getData();
-    }, []);
-
-    async function getData () {
         const URL = 'https://api.github.com/users';
-        const resp = await fetch(URL);
-        const res = await resp.json();
-        setUsersData(res);
-    }
+
+        fetch(URL)
+            .then(resp => resp.json())
+            .then(res => setUsersData(res));
+    }, []);
 
     function handleSubmit (e) { 
         e.preventDefault();
@@ -44,7 +41,9 @@ function SignUpForm () {
     }
 
     return (
-        <form autoComplete="off" className="signUpForm" onSubmit={handleSubmit}>
+        <form autoComplete="off" className="signUpForm" onSubmit={e => {
+            usersData && handleSubmit(e);
+        }}>
             <h2>Register with</h2>
             <div className="options"> 
                 <Option src={facebookSvg} alt='facebook svg' />

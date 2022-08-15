@@ -1,0 +1,15 @@
+$green: rgb(1, 181, 116);
+$blue: rgb(0, 117, 255);
+$white: rgb(255, 255, 255);
+$silver: rgb(160, 174, 192);
+$bgColor1: linear-gradient(127.09deg, rgba(6, 11, 40, 0.94) 19.41%, rgba(10, 14, 35, 0.49) 76.65%);
+$bgColor2: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
+
+.dashboardContainer {
+    background: url(../assets/images/body-background.9e7d96f6.png) 0% 0% / cover;
+
+    .container {
+        margin-left: 274px;
+        padding: 24px;
+    }
+}

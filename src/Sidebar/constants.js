@@ -1,52 +1,54 @@
-export const Sidebar = [
+import home from "../assets/sidebarIcons/home.svg";
+import tables from "../assets/sidebarIcons/chart.svg";
+import billing from "../assets/sidebarIcons/credit-card.svg";
+import profile from "../assets/sidebarIcons/signup.svg";
+import signIn from "../assets/sidebarIcons/file.svg";
+import signUp from "../assets/sidebarIcons/rocket.svg";
+
+export const generalItems = [
     {
-        generalItems: [
-            {
-                route: "Dashboard",
-                icon: {
-                    src: "",
-                    alt: "Dashboard"
-                }
-            },
-            {
-                route: "Tables",
-                icon: {
-                    src: "",
-                    alt: "Tables"
-                }
-            },
-            {
-                route: "Billing",
-                icon: {
-                    src: "",
-                    alt: "Billing"
-                }
-            }
-        ]
+        route: "Dashboard",
+        icon: {
+            src: home,
+            alt: "Dashboard"
+        }
     },
     {
-        accountPages: [
-            {
-                route: "Profile",
-                icon: {
-                    src: "",
-                    alt: "Profile"
-                }
-            },
-            {
-                route: "Sign In",
-                icon: {
-                    src: "",
-                    alt: "Sign in"
-                }
-            },
-            {
-                route: "Sign Up",
-                icon: {
-                    src: "",
-                    alt: "Sign up"
-                }
-            }
-        ]
+        route: "Tables",
+        icon: {
+            src: tables,
+            alt: "Tables"
+        }
+    },
+    {
+        route: "Billing",
+        icon: {
+            src: billing,
+            alt: "Billing"
+        }
+    }
+]
+
+export const accountPages = [
+    {
+        route: "Profile",
+        icon: {
+            src: profile,
+            alt: "Profile"
+        }
+    },
+    {
+        route: "Sign In",
+        icon: {
+            src: signIn,
+            alt: "Sign in"
+        }
+    },
+    {
+        route: "Sign Up",
+        icon: {
+            src: signUp,
+            alt: "Sign up"
+        }
     }
 ]
