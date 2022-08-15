@@ -3,12 +3,15 @@ import React from "react";
 import LeftPartBackground from "./LeftPartBackground/LeftPartBackground";
 // import CustomInput from "./Custom/CustomInput/CustomInput"
 // import CustomButton from "./Custom/CustomButton/CustomButton";
+import SignIn from "./SignIn/SignIn";
+import Dashboard from "./Dashboard/Dashboard";
 
 function App(){
-  // const location = document.location.pathname;
-  // console.log(location)
+  const location = document.location.pathname;
+  console.log(location)
   return (
     <div>
+      <Dashboard />
       {/* <SignIn /> */}
       {/* {location === "/signIn" ? <SignIn /> : <SignUp />} */}
       {/* <SignIn/> */}

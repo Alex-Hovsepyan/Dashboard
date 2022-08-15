@@ -63,7 +63,7 @@
     margin: 10px 0;
 }
 
-input {
+.signUpForm input {
     display: block;
     margin-top: 6px;
     padding: 10px;
@@ -71,9 +71,10 @@ input {
     background: var(--bg_color);
     border-radius: var(--border_radius);
     outline: none;
+    color: white;
 }
 
-input:focus {
+.signUpForm input:focus {
     border: 1px solid lightblue;
 }
 
