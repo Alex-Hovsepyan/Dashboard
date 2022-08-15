@@ -1,8 +1,9 @@
-import SignUp from "../src/SignUp/SignUp";
+// import SignUp from "../src/SignUp/SignUp";
 import React from "react";
 import LeftPartBackground from "./LeftPartBackground/LeftPartBackground";
 // import CustomInput from "./Custom/CustomInput/CustomInput"
 // import CustomButton from "./Custom/CustomButton/CustomButton";
+import CustomTable from "./Custom/CustomTable/CustomTable";
 import SignIn from "./SignIn/SignIn";
 import Dashboard from "./Dashboard/Dashboard";
 
@@ -11,6 +12,7 @@ function App(){
   console.log(location)
   return (
     <div>
+      {/* <CustomTable/> */}
       <Dashboard />
       {/* <SignIn /> */}
       {/* {location === "/signIn" ? <SignIn /> : <SignUp />} */}
