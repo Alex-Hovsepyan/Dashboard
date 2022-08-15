@@ -5,7 +5,9 @@ function LeftPart ({ locationName }) {
     return (
         <div className={styles.leftPart}>
             <div>
-                <img src={home} alt='svg' />
+                <a href="/Dashboard">
+                    <img src={home} alt='svg' />
+                </a>
                 <span> / {locationName}</span>
             </div>
             <h2>{locationName}</h2>
