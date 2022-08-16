@@ -1,21 +1,15 @@
-import SignUp from "../src/SignUp/SignUp";
 import React from "react";
 import LeftPartBackground from "./LeftPartBackground/LeftPartBackground";
 // import CustomInput from "./Custom/CustomInput/CustomInput"
 // import CustomButton from "./Custom/CustomButton/CustomButton";
-
-function App(){
-  // const location = document.location.pathname;
-  // console.log(location)
+import Footer from "./Footer/Footer";
+function App() {
   return (
     <div>
-      {/* <SignIn /> */}
-      {/* {location === "/signIn" ? <SignIn /> : <SignUp />} */}
-      {/* <SignIn/> */}
-        {/* <LeftPartBackground src = {'sinInImg'} /> */}
+        <LeftPartBackground src = {'sinInImg'} />
         {/* <CustomInput label={"Name"} width={300} placeholder={"Your password..."} /> */}
         {/* <CustomButton value={"sign in"} /> */}
-      
+         <Footer/>
     </div>
   );
 }
