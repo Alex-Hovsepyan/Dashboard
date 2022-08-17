@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import CustomSwitcher from "../Custom/CustomSwitcher/CustomSwitcher";
+import Header from "../Header/Header"
 
 function SignIn() {
     const [email,setEmail] = useState('');
@@ -24,6 +25,7 @@ function SignIn() {
     let error = true; 
 return (    
     <div className="containerSignIn">
+        <Header />
         <LeftPartBackground src = {'sinInImg'} /> 
         <div className="rightSignIn">
             <div className="textTop">
