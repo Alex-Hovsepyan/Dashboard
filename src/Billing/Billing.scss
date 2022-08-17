@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    padding: 24px;
+    margin-left: 274px;
+    gap: 20px;
+} 
+
+
+.contents {
+    padding-top: 20px;
+    width: 100%; 
+    display: grid; 
+    grid-template-areas: "vision credit invoices" "payment payment invoices"; 
+    grid-column-gap: 25px; 
+    grid-row-gap: 26px; 
+    grid-template-rows: 260px 185px 625px; 
+    grid-template-columns: repeat(3, minmax(300px, 700px)); 
+    & * { 
+        border-radius: 20px; 
+    } 
+} 
+    
+    .vision { 
+    background-image: url(../assets/images/billing-background-card.webp);   
+    padding: 32px;
+    grid-area: vision; 
+    padding-left: 39px; 
+    color: rgb(255, 255, 255);
+     
+    h4 { 
+    word-spacing: 5px; 
+    font-size: 1.5rem; 
+    margin: 46px 0 0; 
+    padding: 0 0 10px; 
+}
+
+.VisionTextContainer { 
+    width: 112px; 
+    display: flex; 
+    justify-content: 
+    space-between; 
+    line-height: 1.5; 
+    
+    span { 
+    font-size: 0.625rem; 
+    opacity: 0.8; 
+    font-weight: 700;
+} 
+
+h6 { 
+    font-size: 1rem; 
+        } 
+    } 
+} 
+
+.credit { 
+    background: linear-gradient(#060B28, #0D1035, #0F112E); 
+    grid-area: credit; 
+    padding: 30px; 
+    color: rgb(160, 174, 192); 
+    
+    p {
+         font-size: 11px; 
+         margin: 0 0 8px; 
+         font-weight: bold; 
+        } 
+    } 
+
+.invoices { 
+    background-image: linear-gradient(#060B27, #0E0F28, #0E0F28);
+    grid-area: invoices; 
+    padding: 27px; 
+
+.invoicesHeader { 
+    display: flex; 
+    line-height: 2; 
+    justify-content: space-between; 
+    font-size: 24px; 
+    font-weight: bolder;
+    color: white;
+    margin: 0 0 28px; 
+    } 
+
+    .InvoicesContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+
+        .InvoicesItem {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            .LeftInvoicesPart {
+
+                p {
+                    font-weight: bold;
+                    color: white;
+                    font-size: 14px;
+                }
+                span {
+                    color: rgb(160, 174, 192);
+                    font-size: 12px;
+                }
+            }
+
+            .RightInvoicesPart {
+                padding-top: 12px;
+                color: rgb(160, 174, 192);
+                width: 110px;
+                display: flex;
+                justify-content: space-between;
+                    font-size: 15px;
+
+
+                div {
+                    display: flex;
+                    text-align: center;
+                }
+            }
+        }
+
+
+    }
+} 
+
+
+
+.payment { 
+    grid-area: payment; 
+} 
+
+.information {
+    background-image: linear-gradient(to right, #070B2B, #141B50, #1B1F6B);
+    padding: 22px;
+    grid-column: span 2; 
+
+    p {
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .InfornationContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .InformationContent {
+            background-image: linear-gradient(to right, #161B3A, #151937, #101642);
+            padding: 24px;
+
+           h5 {
+            color: rgb(160, 174, 192);
+            font-weight: 500;
+           }
+            .InformationHeader {
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    margin-bottom: 2px;
+                    font-size: 16px;
+                    color: white;
+                    font-weight: bold;
+                }
+
+
+                .InfoRightPart {
+                    width: 180px;
+                    font-size: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .Delete {
+                        color: red;
+                        font-size: 13px;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+
+                    .Edit {
+                        color: rgb(160, 174, 192);
+                        font-size: 15px;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+} 
+
+.transaction { 
+    background-image: linear-gradient(90deg, #080E2F, #161E52, #1E2A6B);
+    padding: 24px;
+    grid-column: span 1; 
+    
+
+    
+    .yesterday {
+        margin: 8px 0 30px;
+        font-size: 14px;
+        color: rgb(160, 174, 192);
+        font-weight: bold;
+        
+    }
+
+    header {
+        width: 100%;
+        margin: 0 0 18px;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .HeaderRightPart {
+            width: 154px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 14px;
+            font-weight: bold;
+            color: rgb(160, 174, 192);
+        }
+    }
+    
+    h6 {
+        margin: 0 0 16px;
+        color: rgb(160, 174, 192);
+        font-size: 14px;
+    }
+
+    .TransationContainer {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .TransationLeftPart {
+            width: 203px;
+            display: flex;
+            justify-content: space-between;
+
+
+            .arrow {
+                display: flex;
+                transform: rotate(180deg);
+                justify-content: center;
+                font-size: 30px;
+                width: 40px;
+                height: 40px;
+                color: red;
+                border: solid red 1px;
+                margin: 0 0 30px;
+            }
+
+            .arrow2 {
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                width: 40px;
+                height: 40px;
+                color: green;
+                border: solid green 1px;
+                margin: 0 0 30px;
+
+            }
+
+            .arrow3 {
+                margin-top: 5px;
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                width: 40px;
+                height: 40px;
+                color: rgb(160, 174, 192);
+                border: solid rgb(160, 174, 192) 1px;
+
+            }
+
+            .TransationText {
+                p {
+                    font-size: 14px;
+                    color: white;
+                    font-weight: bold;
+                }
+
+                span {
+                    font-size: 12px;
+                    color: rgb(160, 174, 192);
+                }
+            }
+        }
+    }
+} 
+
+.visionContent { 
+    display: flex; 
+    line-height: 1.7; 
+    justify-content: space-between; 
+    width: 99%;
+    font-weight: 900;
+    font-size: 18.4px; 
+}
+ 
+@media screen and (min-width : 1024px) and (max-width : 1439px) { 
+    .contents { 
+        grid-template-columns: repeat(1, minmax(400px, 750px)); 
+        grid-template-rows: 260px 260px 185px 625px; 
+        grid-template-areas: 'vision invoices' 'credit invoices' 'payment invoices';
+} 
+
+.sidebar { 
+    display: none; 
+} 
+
+.main { 
+    background-size: cover; 
+    margin-left: 0;
+} 
+
+.information { 
+    grid-column: span 1; 
+    } 
+} 
+
+@media screen and (min-width : 100px) and (max-width : 1023px) { 
+    .contents { 
+        grid-template-columns: repeat(2, minmax(200px, 1000px));
+        grid-template-areas: 'vision vision' 'credit credit' 'payment payment' 'invoices invoices' 'information transaction'; 
+        grid-template-rows: 260px 260px 185px 474px 625px 625px;
+        height: 2000px; 
+    }
+
+    .sidebar { 
+        display: none; 
+    }
+     
+    .main { 
+        background-size: cover; 
+        margin-left: 0;
+    } 
+    
+    .information { 
+        grid-column: span 1; 
+    } 
+
+    .information, .transaction {
+        grid-column: span 1;
+    }
+} 
+
+.FirstCreditContent { 
+    background-image: url('../assets/images/download.png'); 
+    font-weight: 900; 
+    color: white; 
+    background-color: red; 
+    height: 100px; 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+    font-size: 13px; 
+    margin: 0 0 32px; 
+    
+    h2 { 
+        font-size: 36px; line-height: 1.5; 
+    } 
+} 
+
+.RightCreditPart { 
+    svg { 
+        display: block; 
+    } 
+} 
+
+.SecondCreditContent { 
+    height: 42px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    span { 
+        font-weight: bolder; 
+        color: white; 
+    } 
+} 
+
+.LeftCreditPart { 
+    display: flex; 
+    width: 140px; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+    line-height: 1.5; 
+    
+    .svg { 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        width: 40px; 
+        height: 40px; 
+        background: rgba(34, 41, 78, 0.7); 
+    } 
+    
+    span { 
+        font-size: 14px; 
+        font-weight: 600; 
+        color: white; 
+    } 
+    
+    p { 
+        font-size: 14px; 
+    } 
+} 
+
+.payment { 
+    background-image: linear-gradient(to right, #060B29, #12164C, #262a5a); 
+    padding: 25px; 
+} 
+    
+.PaymentHeader { 
+    display: flex; 
+    justify-content: space-between; 
+    text-align: center; 
+    font-size: 20px; 
+    color: white; 
+    font-weight: bolder; 
+    margin: 0 0 32px; 
+} 
+        
+.PaymentContainer {
+    display: flex; 
+    justify-content: space-around;
+    gap: 25px; 
+} 
+    
+.LeftPaymentPart { 
+    width: 50%;
+    border: 2px solid rgb(74, 85, 104); 
+    padding: 22px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    text-align: center; 
+    height: 69px; 
+    
+    div { 
+        width: 200px; 
+        display: flex; 
+        justify-content: space-between; 
+        line-height: 1.5; 
+        font-weight: bolder; 
+        color: white; 
+    } 
+} 
+
+.RightPaymentPart { 
+    width: 50%;
+    border: 2px solid rgb(74, 85, 104); 
+    display: flex; 
+    justify-content: space-between; 
+    text-align: center; 
+    padding: 22px 20px; 
+    height: 69px; 
+    
+    div { 
+        width: 200px; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        line-height: 1.5; 
+        font-weight: bolder; 
+        color: white; 
+    } 
+}
+
+
+
+@media screen and (min-width : 100px) and (max-width : 811px) {
+
+    .PaymentContainer {
+       flex-direction: column;
+    }
+    .contents {
+        grid-template-rows: 260px 260px 185px 474px 625px 625px;
+ 
+    }
+    .RightPaymentPart {
+        width: 100%;
+    }
+    .LeftPaymentPart {
+        width: 100%;
+    }
+    .main {
+        background-size: cover; 
+        height: 2800px;
+    }
+
+    .information {
+        grid-column: span 2;
+    }
+
+    .transaction {
+        grid-column: span 2;
+    }
+}

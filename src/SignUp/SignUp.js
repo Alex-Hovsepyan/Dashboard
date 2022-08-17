@@ -1,12 +1,24 @@
-// import "./SignUp.scss";
-// import bgColor from "../assets/images/signUpImage.webp"
-// function SignUp() {
-//     return (
-//         <div>
-//             Sign up
-//             <img src={bgColor} alt="">
-//         </div>
-//     )
-// }
+import SignUpForm from './SignUpForm';
+import LeftPartBackground from '../LeftPartBackground/LeftPartBackground';
+import './signUp.css';
 
-// export default SignUp;
+function SignUp() { 
+    return (
+        <div className='signUp'>
+            <LeftPartBackground src="signUpImg" height={"auto"} />
+            <div className='rightPart'>
+                <div className='welcomeText'>
+                    <h2>Welcome!</h2>
+                    <p>
+                        Use these awesome forms to login or create
+                        new <br/> accountin your project for free.
+                    </p>
+                </div>
+                <SignUpForm />
+            </div>
+        </div>
+    );
+}
+
+
+export default SignUp;

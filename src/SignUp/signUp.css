@@ -1,0 +1,127 @@
+
+:root {
+    --bg_color: linear-gradient(159.02deg, rgb(15, 18, 59) 14.25%, rgb(9, 13, 46) 56.45%) transparent;
+    --border: 2px solid rgb(74, 85, 104);
+    --border_radius: 20px;
+    --text_color: rgb(160, 174, 192);
+}
+
+.signUp {
+    min-height: 160vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.rightPart {
+    background: var(--bg_color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+}
+
+.welcomeText {
+    text-align: center;
+}
+
+.welcomeText h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.welcomeText p {
+    font-size: 17px;
+}
+
+.signUpForm {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(19, 21, 56);
+    border: var(--border);
+    border-radius: var(--border_radius);
+    padding: 20px;
+    margin: 50px 0;
+}
+
+.signUpForm label {
+    width: 85%;
+    margin: 10px 0;
+}
+
+.signUpForm div {
+    width: 80%;
+    margin: 15px 0;
+}
+
+.signUpForm h2 {
+    margin: 10px 0;
+}
+
+.signUpForm input {
+    display: block;
+    margin-top: 6px;
+    padding: 10px;
+    border: var(--border);
+    background: var(--bg_color);
+    border-radius: var(--border_radius);
+    outline: none;
+    color: white;
+}
+
+.signUpForm input:focus {
+    border: 1px solid lightblue;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.linkText {
+    color: var(--text_color);
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.linkText a {
+    text-decoration: none;
+    color: white;
+    margin-left: 4px;
+}
+
+.or {
+    font-size: 21px;
+    color: var(--text_color);
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    padding: 22px;
+    border: var(--border);
+    border-radius: var(--border_radius);
+}
+
+.option:hover {
+    background: radial-gradient(rgba(255, 255, 255, 0.17), transparent);
+}
+
+.option img {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .signUp {
+        grid-template-columns: 1fr;
+    }
+}

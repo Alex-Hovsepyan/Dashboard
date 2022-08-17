@@ -1,7 +1,9 @@
-function CustomButton() {
+import './CustomButton.css'
+
+function CustomButton({ width, value }) {
     return (
         <div>
-            Custom button
+            <button style={{width : width}}>{value}</button>
         </div>
     )
 }
