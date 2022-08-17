@@ -16,7 +16,7 @@ import Item10 from "./Item10";
 function Dashboard () {
     return (
         <div className={s.dashboardContainer}>          
-            {/* <Sidebar /> */}
+            <Sidebar />
             <div className={s.container}>
                 <GeneralHeader locationName={'Dashboard'} />
 

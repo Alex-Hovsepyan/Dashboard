@@ -9,7 +9,7 @@ function Tables() {
             <div style={{display: 'flex',
                     marginLeft: 270,
                     flexDirection: 'column',
-                    width: "calc(100% - 260px)"}} >
+                    width: "100%"}} >
                 <GeneralHeader />
                 <CustomTable data={dataAuthors} />
                 {/* <CustomTable data={dataProjects} /> */}

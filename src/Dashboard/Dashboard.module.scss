@@ -7,15 +7,17 @@ $bgColor1: linear-gradient(127.09deg, rgba(6, 11, 40, 0.94) 19.41%, rgba(10, 14,
 $bgColor2: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
 
 .dashboardContainer {
-
     .container {
-        margin-left: 274px;
+        width: calc(100% - 260px);
+        margin-left: 260px;
         padding: 24px;
         font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
         transition: margin-left 0.7s ease;
     }
     
     .wrapper {
+        width: 100%;
+        margin-left: 260px;
         padding: 30px 0;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
