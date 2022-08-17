@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./assets/images/body-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    line-height: 1.625;
+}
