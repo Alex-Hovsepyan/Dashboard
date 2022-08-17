@@ -4,6 +4,7 @@ import signUp from "../assets/images/signup.svg";
 import menu from "../assets/images/menu.svg";
 import settings from "../assets/images/settings.svg";
 import bell from "../assets/images/bell.svg";
+import { Link } from "react-router-dom";
 
 function RightPart () {
     return (
@@ -11,7 +12,7 @@ function RightPart () {
             <SearchInput />
             <div className={styles.items}>
                 <img src={signUp} alt="svg" />
-                <a href="/Dashboard">Sign in</a>
+                <Link to="/signIn">Sign in</Link>
                 <img src={menu} alt="svg" className={styles.menu} />    
                 <img src={settings} alt="svg" />
                 <img src={bell} alt="svg" />
