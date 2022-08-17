@@ -1,10 +1,11 @@
-import SignUp from "./SignUp/SignUp";
+import Header from "./Header/Header";
 
 
-function App() {
+
+function App(){
   return (
     <div>
-      <SignUp />
+      <Header/>
     </div>
   );
 }
