@@ -9,6 +9,7 @@ import Tables from "./Tables/Tables";
 function App(){
   return (
     <Routes>
+      <Route path="" element={<Dashboard />}></Route>
       <Route path="/dashboard" element={<Dashboard />}></Route>
       <Route path="/signIn" element={<SignIn />}></Route>
       <Route path="/billing" element={<Billing />}></Route>

@@ -2,14 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;    
-    padding: 15px 30px;
+    padding: 10px 30px;
     font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
     border-radius: 20px;
     color: white;
     background-color: transparent;
     position: sticky;
     top: 24px;
-    z-index: 10;
+    z-index: 100;
+    margin: 0 10px;
+    width: 100%;
+    margin-left: 260px;;
 
     img {
         cursor: pointer;
@@ -21,14 +24,13 @@
     }
 
     .leftPart img {
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
         margin-right: 5px;
     }
 
     .leftPart h2 {
         font-size: 17px;
-        margin-top: 5px;
     }
 
     .leftPart div {
@@ -82,7 +84,7 @@
         }
         &:focus {
             padding: 0 10px;
-            border: 2px solid rgb(133, 212, 238);
+            box-shadow: 0 0 5px 0 rgb(133, 212, 238);
         }
     }
 
@@ -94,7 +96,6 @@
 
     .menu {
         display: none;
-
     }
 }
 
@@ -106,7 +107,7 @@
 }
  
 @media screen and (max-width: 1440px) {
-    header {
+    .generalheader {
         .menu {
             display: block;
         }
@@ -114,7 +115,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    header {
+    .generalheader {
         flex-direction: column;
         align-items: stretch;
     

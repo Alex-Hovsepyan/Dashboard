@@ -6,10 +6,13 @@ import { dataAuthors, dataProjects } from "../fakeData/constants";
 function Tables() {
     return(<div style={{display: 'flex'}}>
             <Sidebar />
-            <div style={{display: 'flex', flexDirection: 'column'}} >
+            <div style={{display: 'flex',
+                    marginLeft: 270,
+                    flexDirection: 'column',
+                    width: "100%"}} >
                 <GeneralHeader />
                 <CustomTable data={dataAuthors} />
-                <CustomTable data={dataProjects} />
+                {/* <CustomTable data={dataProjects} /> */}
             </div>
         </div>
     )
