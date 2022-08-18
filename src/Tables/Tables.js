@@ -1,18 +1,16 @@
 import CustomTable from "../Custom/CustomTable/CustomTable";
 import GeneralHeader from "../GeneralHeader/GeneralHeader";
 import Sidebar from "../Sidebar/Sidebar";
-import { dataAuthors, dataProjects } from "../fakeData/constants";
+import { dataAuthors } from "../fakeData/constants";
 
 function Tables() {
     return(<div style={{display: 'flex'}}>
             <Sidebar />
-            <div style={{display: 'flex',
-                    marginLeft: 270,
-                    flexDirection: 'column',
-                    width: "100%"}} >
-                <GeneralHeader />
-                <CustomTable data={dataAuthors} />
-                {/* <CustomTable data={dataProjects} /> */}
+            <div style={{width: "calc(100% - 280px)", marginLeft: 15}} >
+                <GeneralHeader locationName={"Tables"} />
+                <div style={{width: "100%", marginLeft: 250}}>
+                    <CustomTable data={dataAuthors} />
+                </div>
             </div>
         </div>
     )

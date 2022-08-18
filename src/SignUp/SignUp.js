@@ -1,10 +1,12 @@
 import SignUpForm from './SignUpForm';
 import LeftPartBackground from '../LeftPartBackground/LeftPartBackground';
 import './signUp.css';
+import Header from '../Header/Header';
 
 function SignUp() { 
     return (
         <div className='signUp'>
+            <Header />
             <LeftPartBackground src="signUpImg" height={"auto"} />
             <div className='rightPart'>
                 <div className='welcomeText'>

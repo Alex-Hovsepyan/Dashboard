@@ -13,10 +13,14 @@
     gap: 20px;
 } 
 
+.mainContainer {
+    width: calc(100% - 260px);
+}
 
 .contents {
+    width: 100%;
+    margin-left: 260px;
     padding-top: 20px;
-    width: 100%; 
     display: grid; 
     grid-template-areas: "vision credit invoices" "payment payment invoices"; 
     grid-column-gap: 25px; 
@@ -334,9 +338,9 @@ h6 {
         grid-template-areas: 'vision invoices' 'credit invoices' 'payment invoices';
 } 
 
-.sidebar { 
-    display: none; 
-} 
+// .sidebar { 
+//     display: none; 
+// } 
 
 .main { 
     background-size: cover; 
@@ -356,9 +360,9 @@ h6 {
         height: 2000px; 
     }
 
-    .sidebar { 
-        display: none; 
-    }
+    // .sidebar { 
+    //     display: none; 
+    // }
      
     .main { 
         background-size: cover; 
