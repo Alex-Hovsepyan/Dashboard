@@ -8,11 +8,11 @@ function InformationContents({title, name, email, number}) {
                 <p>{title}</p>
                 <div className="InfoRightPart">
                     <div className="Delete">
-                <Svg value={'delete'} />
-                <span>DELETE</span>
+                        <Svg value={'delete'} />
+                            <span>DELETE</span>
                     </div>
                     <div className="Edit">
-                <Svg value={'pencil'} color={'rgb(160, 174, 192)'} width={40} height={20} />
+                         <Svg value={'pencil'} color={'rgb(160, 174, 192)'} width={40} height={20} />
                 <span>EDIT</span>
                     </div>
                 </div>

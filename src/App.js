@@ -5,6 +5,7 @@ import Billing from "./Billing/Billing";
 import Profile from "./Profile/Profile";
 import SignUp from "./SignUp/SignUp";
 import Tables from "./Tables/Tables";
+import Projects from "./Profile/Projects/Projects";
 
 function App(){
   return (
