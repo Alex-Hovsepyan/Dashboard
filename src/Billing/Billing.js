@@ -5,11 +5,7 @@ import Svg from './Svg';
 import InvoicesContents from './Others/InvoicesContents';
 import InformationContents from './Others/InformationContents';
 import TransactionContents from './Others/TransactionContents';
-<<<<<<< HEAD
 import Footer from "../Footer/Footer";
-=======
-import Projects from '../Profile/Projects/Projects';
->>>>>>> d8ba573bdaf5cd4dec9e5b1a15e4458f05488e96
 
 function Billing() {    
      return ( 
@@ -127,13 +123,10 @@ function Billing() {
                              
                         </div>              
                 </div>  
-<<<<<<< HEAD
-                <Footer/>
-            </div>        
-=======
-            </div>                        
->>>>>>> d8ba573bdaf5cd4dec9e5b1a15e4458f05488e96
-        </div> 
+            </div>   
+            <Footer/>
+        </div>                        
+        
     ) 
 }  
             

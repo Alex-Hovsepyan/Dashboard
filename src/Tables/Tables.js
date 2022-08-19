@@ -3,6 +3,7 @@ import GeneralHeader from "../GeneralHeader/GeneralHeader";
 import Sidebar from "../Sidebar/Sidebar";
 import { dataAuthors } from "../fakeData/constants";
 import s from  "../Custom/CustomTable/CustomTable.module.scss";
+import Footer from "../Footer/Footer";
 
 
 
@@ -18,6 +19,7 @@ function Tables() {
                 <div style={{marginLeft : 250,width: "100%"}}>
                     <CustomTable data={dataAuthors} />
                 </div>
+                <Footer />
             </div>
         </div>
     )

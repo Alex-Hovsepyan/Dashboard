@@ -90,7 +90,7 @@ return (
                 <a href="/signUp">Sign up</a>
             </span>
         </div>
-    <Footer/>
+            <Footer checkClassName={false}/>
     </div>
     <ToastContainer position="top-right" autoClose={3000}/>
 </div>)}
