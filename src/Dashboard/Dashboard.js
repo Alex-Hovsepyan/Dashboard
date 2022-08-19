@@ -33,7 +33,7 @@ function Dashboard () {
                     <Item10 />
                     <Item11 />
                 </main>
-                <Footer />
+                <Footer checkClassName={true} />
             </div>
         </div>
     )

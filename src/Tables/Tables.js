@@ -19,7 +19,9 @@ function Tables() {
                 <div style={{marginLeft : 250,width: "100%"}}>
                     <CustomTable data={dataAuthors} />
                 </div>
-                <Footer />
+                <div style={{ margin: '30px 0' }}>
+                    <Footer checkClassName={true} />
+                </div>
             </div>
         </div>
     )

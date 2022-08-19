@@ -79,7 +79,7 @@ return (
                         setValue = {setPassword} /> 
                 </div>
                 <CustomSwitcher label={"Remember me"} />
-                <CustomButton value={"sign in"} width={300}/> 
+                <CustomButton background={"rgb(0, 117, 255)"} value={"sign in"} width={300}/> 
 
             </form>
                          

@@ -81,6 +81,7 @@ function SignUpForm () {
             <CustomButton 
                 value='SIGN UP'
                 width='100%'
+                background={"rgb(0, 117, 255)"}
             />
             <p className="linkText">
                 Already have an account?

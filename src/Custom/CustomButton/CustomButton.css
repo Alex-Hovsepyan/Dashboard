@@ -10,9 +10,11 @@ button {
     color: white;
     cursor: pointer;
     transition: all 250ms;
+    border: none;
     text-transform: uppercase;
 }
 
 button:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    border: none;
 }

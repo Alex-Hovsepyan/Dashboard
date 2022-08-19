@@ -123,8 +123,10 @@ function Billing() {
                              
                         </div>              
                 </div>  
+                <div style={{ margin: '30px 0' }}>
+                <Footer checkClassName={true} />
+            </div>
             </div>   
-            <Footer/>
         </div>                        
         
     ) 

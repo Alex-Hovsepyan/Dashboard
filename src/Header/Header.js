@@ -38,7 +38,7 @@ function Header() {
                     src={item.src}
                     title={item.title} />)}
             </ul>
-            <CustomButton value={"Buy now"} />
+            <CustomButton background={"rgb(0, 117, 255)"} value={"Buy now"} />
     </div>
     )
 }
