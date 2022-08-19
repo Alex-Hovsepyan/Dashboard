@@ -8,6 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import CustomSwitcher from "../Custom/CustomSwitcher/CustomSwitcher";
 import Header from "../Header/Header"
+import Footer from "../Footer/Footer";
 
 function SignIn() {
     const [email,setEmail] = useState('');
@@ -73,6 +74,7 @@ return (
                 <a href="/signUp">Sign up</a>
             </span>
         </div>
+    <Footer/>
     </div>
     <ToastContainer position="top-right" autoClose={3000}/>
 </div>)}

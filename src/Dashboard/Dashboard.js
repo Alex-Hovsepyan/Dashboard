@@ -1,6 +1,7 @@
 import s from "./Dashboard.module.scss";
 import GeneralHeader from "../GeneralHeader/GeneralHeader";
 import Sidebar from "../Sidebar/Sidebar";
+import Footer from "../Footer/Footer";
 import Item1 from "./Item1";
 import Item2 from "./Item2";
 import Item3 from "./Item3";
@@ -19,7 +20,6 @@ function Dashboard () {
             <Sidebar />
             <div className={s.container}>
                 <GeneralHeader locationName={'Dashboard'} />
-
                 <main className={s.wrapper}>
                     <Item1 />
                     <Item2 />
@@ -33,6 +33,7 @@ function Dashboard () {
                     <Item10 />
                     <Item11 />
                 </main>
+                <Footer />
             </div>
         </div>
     )

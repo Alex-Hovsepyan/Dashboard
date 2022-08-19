@@ -5,6 +5,7 @@ import Svg from './Svg';
 import InvoicesContents from './Others/InvoicesContents';
 import InformationContents from './Others/InformationContents';
 import TransactionContents from './Others/TransactionContents';
+import Footer from "../Footer/Footer";
 
 function Billing() {    
      return ( 
@@ -122,8 +123,8 @@ function Billing() {
 
                         </div>              
                 </div>  
-            </div>                        
-
+                <Footer/>
+            </div>        
         </div> 
     ) 
 }  

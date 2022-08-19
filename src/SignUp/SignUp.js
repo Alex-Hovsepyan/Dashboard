@@ -2,6 +2,7 @@ import SignUpForm from './SignUpForm';
 import LeftPartBackground from '../LeftPartBackground/LeftPartBackground';
 import './signUp.css';
 import Header from '../Header/Header';
+import Footer from "../Footer/Footer";
 
 function SignUp() { 
     return (
@@ -17,6 +18,7 @@ function SignUp() {
                     </p>
                 </div>
                 <SignUpForm />
+            <Footer/>
             </div>
         </div>
     );

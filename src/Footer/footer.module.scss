@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color:white;
+}
+
+.footerPart_2, .footerPart_1{
+    display: flex;
+    font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+}
+.footerPart_1 a{
+    margin: 0 2px;
+}
+.footerPart_2 a{
+    margin-right: 46px;
+}
+
+.footerPart_2 a, .footerPart_1 a{
+    text-decoration: none;
+    color: white;
+}
