@@ -1,0 +1,16 @@
+
+.profileContainer {
+    width: 100%;
+
+    .mainContainer {
+        width: calc(100% - 260px);
+
+        .header {
+            margin-top: 10px;
+        }
+
+        .mainPart {
+            margin-left: 280px;
+        }
+    }
+}
