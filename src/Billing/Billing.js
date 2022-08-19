@@ -5,7 +5,11 @@ import Svg from './Svg';
 import InvoicesContents from './Others/InvoicesContents';
 import InformationContents from './Others/InformationContents';
 import TransactionContents from './Others/TransactionContents';
+<<<<<<< HEAD
 import Footer from "../Footer/Footer";
+=======
+import Projects from '../Profile/Projects/Projects';
+>>>>>>> d8ba573bdaf5cd4dec9e5b1a15e4458f05488e96
 
 function Billing() {    
      return ( 
@@ -61,7 +65,7 @@ function Billing() {
                         <div className='payment'>                 
                             <div className='PaymentHeader'>                     
                                 <span>Payment Method</span>                     
-                                <button style={{fontWeight : 'bolder', borderRadius : '10px'}}>ADD NEW CARD</button>                 
+                                <button style={{fontWeight : 'bolder', borderRadius : '10px', background : 'rgb(0, 117, 255)'}}>ADD NEW CARD</button>                 
                             </div>                 
                             <div className='PaymentContainer'>                     
                                 <div className='LeftPaymentPart'>                     
@@ -83,7 +87,7 @@ function Billing() {
                         <div className='invoices'>                 
                             <div className='invoicesHeader'>                     
                                 <h6>Invoices</h6>                     
-                                <button style={{padding : '0 30px',fontWeight : 'bolder', borderRadius : '10px'}}>VIEW ALL</button>                 
+                                <button style={{padding : '0 30px',fontWeight : 'bolder', borderRadius : '10px', background : 'rgb(0, 117, 255)'}}>VIEW ALL</button>                 
                             </div> 
                             <div className='InvoicesContainer'>
                             <InvoicesContents date={'March, 01,2020'} code={'#MS-415646'} money={'$180'} />
@@ -120,11 +124,15 @@ function Billing() {
                             <TransactionContents color={'green'} value={'f'} name={'Hubspot'} date={'26 March 2020, at 08:30 AM'} money={'+ $ 2,500'} />
                             <TransactionContents color={'rgb(160, 174, 192)'} value={'Webflow'} name={'Webflow'} date={'26 March 2020, at 05:00 AM'} money={'Pending'} />
                             
-
+                             
                         </div>              
                 </div>  
+<<<<<<< HEAD
                 <Footer/>
             </div>        
+=======
+            </div>                        
+>>>>>>> d8ba573bdaf5cd4dec9e5b1a15e4458f05488e96
         </div> 
     ) 
 }  

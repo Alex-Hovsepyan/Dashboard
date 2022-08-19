@@ -60,9 +60,25 @@ return (
                     setPassword('') 
                 }
                 }}>
-                <CustomInput value={email} label={"Email"} width={300} placeholder={"Your email..."} type ={'text'} setValue = {setEmail}/> 
-                <CustomInput value={password} label={"Password"} width={300} placeholder={"Your password..."} type ={'password'} setValue = {setPassword} /> 
-                <CustomSwitcher checked={false} />
+                <div style={{marginBottom: 30}}>
+                    <CustomInput
+                        value={email}
+                        label={"Email"}
+                        width={300}
+                        placeholder={"Your email..."}
+                        type ={'text'}
+                        setValue = {setEmail}/> 
+                </div>
+                <div style={{marginBottom: 30}}>
+                    <CustomInput
+                        value={password}
+                        label={"Password"}
+                        width={300}
+                        placeholder={"Your password..."}
+                        type ={'password'}
+                        setValue = {setPassword} /> 
+                </div>
+                <CustomSwitcher label={"Remember me"} />
                 <CustomButton value={"sign in"} width={300}/> 
 
             </form>
