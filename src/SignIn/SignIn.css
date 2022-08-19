@@ -28,20 +28,26 @@
 .inputsAndButton{
     width: 100%;
 }
-.inputsAndButton input{
-    margin: 18px 0;
-    background-color: transparent;
-}
 .links {
     width: 100%;
     font-size: 13px;
-    color: #fff;
     margin: 35px 55px;
+    font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(160, 174, 192);
+    font-weight: 400;
+    
 }
 .links a{
     color: #fff;
     font-weight: bold;
     text-decoration: none;
+    margin-left: 5px;
 }
 
 @media screen and (max-width: 1024px){
@@ -60,9 +66,6 @@
     .containerSignIn .rightSignIn{
         width: 100%;
         text-align: center;
-    }
-    .inputsAndButton input{
-        margin: 18px auto;
     }
     .links {
         margin: 35px auto;
