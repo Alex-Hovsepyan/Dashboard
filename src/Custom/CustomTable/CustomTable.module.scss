@@ -1,21 +1,31 @@
 .container{
     width: 100%;
-    display: flex;
-    
+    display: flex; 
 }
-// .container .left{
-//     width: 18%;
-// }
+
 .container .right{
     width: 100%;
     margin: 50px 10px 0 10px;
 }
 .container .right .top{
    margin-bottom: 50px;
+
     
 }
+
 h3{
     color: rgb(255, 255, 255);
    padding: 20px 0 15px 20px;
    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .container .right .top{
+        overflow-x: scroll;
+     
+    }
+    .container .right .myScrool{
+        overflow-x: scroll; 
+    }
 }
