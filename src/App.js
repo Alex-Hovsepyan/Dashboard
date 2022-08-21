@@ -5,7 +5,6 @@ import Billing from "./Billing/Billing";
 import Profile from "./Profile/Profile";
 import SignUp from "./SignUp/SignUp";
 import Tables from "./Tables/Tables";
-import Projects from "./Profile/Projects/Projects";
 
 function App(){
   return (
@@ -18,7 +17,6 @@ function App(){
       <Route path="/profile" element={<Profile />}></Route>
       <Route path="/tables" element={<Tables />}></Route>
     </Routes>
-
   );
 }
 

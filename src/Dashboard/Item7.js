@@ -1,5 +1,6 @@
 import s from "./Dashboard.module.scss";
 import ellipsis from "../assets/images/ellipsis.svg";
+import CustomProgressbar from "../Custom/CustomProgressbar/CustomProgressbar";
 
 const Item7 = () => <div className={`${s.item} ${s.item7}`}>
     <h2>Referral Tracking</h2>
@@ -14,7 +15,7 @@ const Item7 = () => <div className={`${s.item} ${s.item7}`}>
             </div>
         </div>
         <div className={s.right}>
-            {/* circle */}
+            <CustomProgressbar percentage={70} />
         </div>
     </div>
     
