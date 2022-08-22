@@ -318,6 +318,50 @@ $bgColor2: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.
 
     .item10 {
         grid-column: 1 / 9;
+
+        h2 {
+            color: $white;
+        }
+
+        .text {
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+            color: $silver;
+
+            img {
+                margin-right: 10px;
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+        table {
+            margin-top: 30px;
+            width: 100%;
+            text-align: center;
+
+            th {
+                color: $silver;
+                font-weight: 100;
+            }
+
+            td {
+                color: $white;
+            }
+
+
+            th, td {
+                &:nth-child(1) {
+                    text-align: start;
+                }
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
     }
 
     .item11 {
@@ -340,8 +384,8 @@ $bgColor2: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.
         }
 
         img {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             margin-top: 4px;
         }
 
@@ -351,11 +395,10 @@ $bgColor2: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.
 
             img {
                 margin-right: 20px;
-                filter: red;
             }
 
             h2 {
-                font-size: 15px;
+                font-size: 17px;
                 margin-bottom: 2px;
             }
         }
@@ -443,17 +486,7 @@ $bgColor2: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.
             .item11 {
 
                 img {
-                    width: 25px;
-                    height: 25px;
                     margin-top: 6px;
-                }
-
-                h2 {
-                    font-size: 17px;
-                }
-
-                p {
-                    font-size: 15px;
                 }
             }
         }
