@@ -1,4 +1,5 @@
 import rocket from "../assets/images/rocket.svg";
+import CustomProgressbar from "../Custom/CustomProgressbar/CustomProgressbar";
 import s from "./Dashboard.module.scss";
 
 const Item6 = () => <div className={`${s.item} ${s.item6}`}>
@@ -6,9 +7,10 @@ const Item6 = () => <div className={`${s.item} ${s.item6}`}>
     <p>From all projects</p>
 
     <div className={s.backCircle}>
-        <div className={s.middleImage}>
+        <CustomProgressbar percentage={80} />
+        {/* <div className={s.middleImage}>
             <img src={rocket} alt="svg" />
-        </div>
+        </div> */}
     </div>
 
     <div className={s.bottomPart}>
