@@ -14,7 +14,9 @@ function Billing() {
                 <Sidebar />   
             </div>
             <div className='mainContainer'>
-                <GeneralHeader locationName={"Billing"} />
+                <div style={{ width: '100%', margin: '10px 0 0 250px'}}>
+                    <GeneralHeader locationName={"Billing"} />
+                </div>
                 <div className='contents'>  
                         <div className='vision'>                 
                             <div className='visionContent'>                    

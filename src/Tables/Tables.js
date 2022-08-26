@@ -11,11 +11,11 @@ function Tables() {
     return(<div style={{display: 'flex'}}>
         <div className={s.closeSidebar}>
         <Sidebar />
-
         </div>
-            
             <div style={{width: "calc(100% - 280px)", marginLeft: 15}} >
-                <GeneralHeader locationName={"Tables"} />
+                <div style={{ width: '100%', margin: '10px 0 0 250px'}}>
+                    <GeneralHeader locationName={"Tables"} />
+                </div>
                 <div style={{marginLeft : 250,width: "100%"}}>
                     <CustomTable data={dataAuthors} />
                 </div>
