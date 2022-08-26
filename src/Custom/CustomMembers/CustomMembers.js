@@ -3,8 +3,10 @@ import MemberImage from "./MemberImage";
 
 function CustomMembers ({ images }) {
     return (
-        <div className={s.membersContainer}>
-            {images.map(src => <MemberImage src={src} />)}
+        <div className={s.container}>
+            <div className={s.membersContainer}>
+                {images.map((src, idx) => <MemberImage src={src} key={idx} />)}
+            </div>
         </div>
     );
 }

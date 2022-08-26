@@ -11,7 +11,7 @@ import avatar4 from "../../assets/images/avatar4.png";
 
 export const tbodyData = [
     {
-        id: Math.random,
+        id: Math.random(),
         src: xd,
         companies: "Chakra Vision Ul Version",
         images: [avatar1, avatar2, avatar3, avatar4],
@@ -19,7 +19,7 @@ export const tbodyData = [
         completion: "60%"
     },
     {
-        id: Math.random,
+        id: Math.random(),
         src: webdev,
         companies: "Add Progress Track",
         images: [avatar2, avatar4],
@@ -27,7 +27,7 @@ export const tbodyData = [
         completion: "10%"
     },
     {
-        id: Math.random,
+        id: Math.random(),
         src: slack,
         companies: "Fix Platform Errors",
         images: [avatar1, avatar3],
@@ -35,7 +35,7 @@ export const tbodyData = [
         completion: "100%"
     },
     {
-        id: Math.random,
+        id: Math.random(),
         src: spotify,
         companies: "Launch our Mobile App",
         images: [avatar4, avatar3, avatar2, avatar1],
@@ -43,7 +43,7 @@ export const tbodyData = [
         completion: "100%"
     },
     {
-        id: Math.random,
+        id: Math.random(),
         src: jira,
         companies: "Add the New Pricing Page",
         images: [avatar4],
@@ -51,7 +51,7 @@ export const tbodyData = [
         completion: "25%"
     },
     {
-        id: Math.random,
+        id: Math.random(),
         src: invision,
         companies: "Redesign New Online Shop",
         images: [avatar1, avatar4],

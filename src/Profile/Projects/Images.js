@@ -1,6 +1,4 @@
 function Images({Ava1, Ava2, Ava3, Ava4}) {
-
-    if(1 === 1) {
         return (
             <ul>
                 <img src={Ava1} className="FirstAvatar" />
@@ -9,7 +7,6 @@ function Images({Ava1, Ava2, Ava3, Ava4}) {
                 <img src={Ava4} className="FourthAvatar" />
             </ul>
         )
-    }
 }
 
 export default Images
