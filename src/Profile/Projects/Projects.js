@@ -17,7 +17,6 @@ import { Link } from "react-router-dom";
 
 function Projects() {
 
-            // ARRAY
 
     const cards = [
         {
@@ -55,7 +54,6 @@ function Projects() {
     ]
 
 
-    // URISH COMPONENT
 
     function ProjectCard({src, number, text, title, av1, av2, av3, av4}) {
         return (
@@ -81,7 +79,6 @@ function Projects() {
         )
     }
     
-        // ISKAKAN COMPONENT + MAP METHOD
 
     return (
         <div className="ProjectContainer">
