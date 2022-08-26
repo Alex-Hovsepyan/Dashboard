@@ -3,7 +3,6 @@ import s from "./CustomSwitcher.module.scss";
 
 const CustomSwitcher = ({ label }) => {
     const [ checked, setChecked ] = useState(false);
-    console.log(checked)
     return (<div className={s.switcherWrapper} >
         <label className={s.switch}>
             <input type="checkbox" checked={checked} onChange={() => setChecked(!checked)} />
